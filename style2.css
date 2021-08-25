@@ -1,0 +1,324 @@
+#title {
+    width: 1570px;
+    height: 880px;
+  }
+  #asdd {
+    z-index: -1;
+    opacity: 0.95;
+    position: absolute;
+    z-index: -1;
+    width: 1570px;
+    height: 100%;
+  }
+  #nav {
+    background-color: rgba(0, 0, 0, 0.645);
+    width: 1480px;
+    height: 6%;
+    margin: 20px;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    float: left;
+    padding: 20px;
+  }
+  #logo {
+    width: 100px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  .link > a {
+    color: white;
+    text-decoration: none;
+    padding-left: 40px;
+    font-size: 25px;
+  }
+  .link > a:hover {
+    text-decoration: underline;
+    color: rgb(226, 71, 14);
+  }
+  .book {
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    border: solid 1px white;
+    border-radius: 20px;
+    float: right;
+    position: relative;
+    right: 30px;
+  }
+  .book:hover {
+    background-color: rgb(143, 23, 1);
+  }
+  #info {
+    color: rgb(226, 71, 14);
+    position: absolute;
+    top: 130px;
+    left: 100px;
+  }
+  .make {
+    text-decoration: none;
+    color: white;
+    width: 280px;
+    height: 50px;
+    text-align: center;
+    border: solid 1px white;
+    border-radius: 20px;
+  }
+  .make:hover {
+    background-color: black;
+  }
+  /* ************ the first part ***************** */
+  #bod {
+    width: 1570px;
+    height: 750px;
+    background-color: black;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+  }
+  #welcom {
+    color: rgb(226, 71, 14);
+    position: absolute;
+    left: 300px;
+  }
+  #story {
+    width: 400px;
+    height: 600px;
+    position: relative;
+    top: 170px;
+    left: 900px;
+    font-size: 30px;
+    color: white;
+  }
+  /* ********** part two *********** */
+  #three {
+    width: 1570px;
+    height: 1500px;
+    background-color: rgba(5, 5, 5, 0.85);
+    background-size: cover;
+  }
+  #descr {
+    color: rgb(226, 71, 14);
+    position: absolute;
+    left: 200px;
+  }
+  .pho {
+    position: absolute;
+  }
+  #fig1 {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 200px;
+    top: 430px;
+  }
+  .sty {
+    color: cornsilk;
+    font-size: 40px;
+    font-family: "Acme", sans-serif;
+    color: rgb(226, 71, 14);
+  }
+  #sty1 {
+    position: relative;
+    top: 750px;
+    left: 230px;
+  }
+  #fig2 {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    left: 200px;
+    top: 850px;
+  }
+  #sty2 {
+    position: relative;
+    top: 850px;
+    left: 210px;
+  }
+  #fig3 {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    left: 950px;
+    top: 70px;
+  }
+  #sty3 {
+    position: relative;
+    top: 70px;
+    left: 950px;
+  }
+  #fig4 {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    left: 950px;
+    top: 570px;
+  }
+  #sty4 {
+    position: relative;
+    top: 570px;
+    left: 950px;
+  }
+  @keyframes pluss {
+    to {
+      transform: scale(1.3, 1.3);
+    }
+  }
+  .imgg:hover {
+    animation-name: pluss;
+    animation-duration: 0.4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+  }
+  /************ part three *************** */
+  #four {
+    width: 1570px;
+    height: 700px;
+    background-size: cover;
+  }
+  .swee {
+    width: 300px;
+    height: 190px;
+    margin: 10px;
+  }
+  #parag {
+    position: absolute;
+    top: 3190px;
+    left: 350px;
+    color: rgb(242, 205, 0);
+    text-shadow: 15px 15px 6px black;
+  }
+  #parag5 {
+    position: absolute;
+    top: 3290px;
+    left: 350px;
+    color: rgb(242, 205, 0);
+    text-shadow: 15px 15px 6px black;
+  }
+  #parag2 {
+    position: absolute;
+    top: 3400px;
+    left: 70px;
+    width: 1400px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+  .swee:hover {
+    transform: scale(1.5, 1.5);
+  }
+  /* ***************** part four *****************/
+  #five {
+    width: 1570px;
+    height: 1800px;
+    background-color: rgba(5, 5, 5, 0.85);
+    background-size: cover;
+    position: relative;
+  }
+  #love {
+    color: rgb(226, 71, 14);
+    position: absolute;
+    left: 300px;
+  }
+  .comm {
+    color: cornsilk;
+    font-size: 15px;
+    left: 300px;
+    position: absolute;
+    line-height: 30px;
+    font-family: "Acme", sans-serif;
+    letter-spacing: 2px;
+  }
+  .tom {
+    font-family: "Lobster", cursive;
+    color: rgb(226, 71, 14);
+    font-size: 30px;
+  }
+  .tomm {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+  #partt {
+    position: absolute;
+  }
+  .foot {
+    color: rgb(226, 71, 14);
+    position: absolute;
+    font-family: "Lobster", cursive;
+    font-size: 45px;
+  }
+  #foot1 {
+    left: 620px;
+    top: 1050px;
+  }
+  .book2 {
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    padding: 10px;
+    border: solid 1px white;
+    border-radius: 20px;
+    position: relative;
+    top: 670px;
+    left: 700px;
+  }
+  .book2:hover {
+    background-color: rgb(143, 23, 1);
+  }
+  
+  #foot2 {
+    left: 570px;
+    top: 1250px;
+  }
+  #end {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    top: 800px;
+    left: -100px;
+  }
+  /* **************** part five ************ */
+  #sidee {
+    left: 150px;
+    top: 1380px;
+  }
+  #sidee2 {
+    left: 150px;
+    top: 1550px;
+  }
+  .photoo {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  .photoo:hover {
+    transform: scale(1.5, 1.5);
+  }
+  #sidee3 {
+    left: 1150px;
+    top: 1370px;
+  }
+  #sidee4 {
+    left: 1060px;
+    top: 530px;
+  }
+  /*********** coping ********* */
+  #coping {
+    width: 1570px;
+    height: 50px;
+    background-color: rgba(5, 5, 5, 0.85);
+    background-size: cover;
+  }
+  

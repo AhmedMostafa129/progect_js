@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" >
+        <title>
+            Home_page
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style>
+
+        </style>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="200" >
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" style="background-color: rgba(0, 0, 0, 0.645);
+            width: 1480px;height: 8%;margin: 20px; color: white;z-index: 1;float: left;padding: 20px;"> 
+            <h1 style="display: inline; padding-right: 150px">
+                    <img src="photo/logo2.jpg" style="width: 100px; height: 50px;vertical-align: middle; margin-right: 10px;">
+                    Restaurant Brand
+            </h1>
+
+            <ul class="navbar-nav" >
+                <li class="nav-item" >
+                <a class="nav-link" href="#section1" > Home</a>
+                </li>
+            
+                <li class="nav-item">
+                <a class="nav-link" href="#section2">About</a>
+                </li>
+            
+                <li class="nav-item">
+                <a class="nav-link" href="#section3">Menu</a>
+                </li>
+            
+                <li class="nav-item">
+                <a class="nav-link" href="#section4">Information</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="#section5">Contact</a>
+                </li>
+                                
+                        
+                    </ul>
+            </nav>
+
+                    
+        <div id="section1"  >
+                <div id="title">
+                    <div id="asdd">
+                        <video  src="1.mp4" type="video/mp4" width="100%"  autoplay loop muted>  </video>
+                    </div>
+                    <div id="info" > 
+                        <p style="font-family: 'Lobster', cursive; font-size: 100px;width: 700px; ">
+                            A Premium
+                            <br> and Authentic
+                            <br> Steak House
+                        </p>
+                        <a  class="make" href="#" style="font-size: 30px;">Make Reservation</a>
+                    </div>
+                </div>
+        </div>
+        <!--************************** the first part *************************************-->
+        <div id="section2"  >
+                <div id="bod" >
+                    <!-- <img src="photo/15.jpg" style="float: left;  position: absolute; width: 100%; height: 960px; opacity: .90; z-index: -1;"> photo as a background-->
+                    <div id="welcom">
+                        <p style="font-family: 'Lobster', cursive;font-size: 60px;">
+                            Welcome
+                            <br> to Steak by
+                            <br> the Bay
+                        </p>
+                        <img src="photo/13.jpg" width="400px" height="550px" style=" box-shadow: -8px 10px 10px 10px rgba(255, 166, 0, 0.953) ;" >
+                    </div>
+                    <div id="story" >
+                        <span style="font-family: 'Lobster', cursive;font-size: 35px; color: rgb(226, 71, 14);">Our Delicious Story</span>
+                        <p>Our journey started in 1985 when James, a steak lover, explored various recipes
+                            from across the world and brought them together in our menu. Ever since we are now a team 
+                            of 10 expert chefs from 3 top cities in India serving you the best steaks, desserts and mocktails in town.
+                        </p>
+                    </div>
+                </div>
+        </div>
+        <!-- *********************** the part two ****************************************-->
+        <div id="section3"  >    
+                <div id="three">
+                    <div id="descr">
+                        <p style="font-family: 'Lobster', cursive;font-size: 60px;position: relative; top: 160px;">
+                            Our Featured<br>Delicacies
+                        </p>
+                    </div>
+                    <div class="pho" >
+                        <img class="imgg" id="fig1" src="photo/14.jpg" onclick="calling()" style="cursor:pointer">
+                        <label for="fig1" id="sty1" class="sty"  onclick="calling()" style="cursor:pointer"> Wood Fire Charred Steak<br> with BBQ Sauce</label>
+                        <div class="pho" >
+                            <img class="imgg" id="fig2" src="photo/16.jpg" onclick="calling2()" style="cursor:pointer">
+                            <label for="fig2" id="sty2" class="sty" onclick="calling2()" style="cursor:pointer">Roasted Lamb with Seasoned Potatoes</label>
+                        </div> 
+                        <div class="pho" >
+                            <img class="imgg" id="fig3" src="photo/17.jpg" onclick="calling3()" style="cursor:pointer">
+                            <label for="fig3" id="sty3" class="sty" onclick="calling3()" style="cursor:pointer">Oven-roasted Beef with tossed vegetables</label>
+                        </div> 
+                        <div class="pho" >
+                            <img class="imgg" id="fig4" src="photo/18.jpg" onclick="calling4()" style="cursor:pointer">
+                            <label for="fig4" id="sty4" class="sty" onclick="calling4()" style="cursor:pointer">BBQ Ribs with Vegies and French Fries</label>
+                        </div >
+                            <a  class="make" href="#" style=" font-size: 30px;position: absolute; top: 1150px; left: 950px;">Make Reservation</a>
+                        
+                        
+                    </div> 
+                </div>
+        </div>
+        <!-- *********************** part three ************************************************ -->
+        <div id="section4" >
+
+        <div id="four">
+            <img src="photo/15.jpg" style="position: absolute; width: 1570px; height: 700px; opacity: 1; z-index: 0;">
+            <h2 id="parag" style="font-family: 'Lobster', cursive;font-size: 50px;width: 950px;text-align: center;">Information about your meal of choice : </h2>
+            <h2 id="parag5" style="font-family: 'Lobster', cursive;font-size: 50px;width: 950px;text-align: center;"> You haven't chosen any meal yet ! </h2>
+            <p id="parag2" >
+        </div>
+        </div>
+        <!--************************ part four ***********************************************-->
+<div id="section5" >
+        
+        <div id="five">
+                <br><br><br>
+                <p id="love" style="font-family: 'Lobster', cursive;font-size: 60px;">
+                    Loved by Many
+                </p>
+                <div id="partt">
+                    <br><br>
+                    <p class="comm" style="position: relative; left: 900px; top: 30px;">
+                        Diam, urna, ornare leo facilisis suspendisse eu rutrum id augue
+                        <br> cursus tincidunt nisl eget ornare pharetra ac pharetra, pulvinar
+                        <br> ipsum sed amet diam morbi amet cursus blandit augue feugiat
+                        <br> arcu aliquet egestas id diam.
+                        <br>
+                        <br>
+                        <pre class="tom" style="position: absolute; left: 900px;"><img class="tomm" src="photo/34.jpg">   Bryan Lambert </pre>
+                    </p>
+                    <p class="comm" style="position: relative; left: 900px; top: 190px;">
+                        Diam, urna, ornare leo facilisis suspendisse eu rutrum id augue
+                        <br> cursus tincidunt nisl eget ornare pharetra ac pharetra, pulvinar
+                        <br> sed amet diam morbi amet cursus blandit augue feugiat
+                        <br> aliquet egestas id diam.
+                        <br>
+                        <pre class="tom" style="position: absolute; left: 900px; top: 550px;"><img class="tomm" src="photo/35.jpg">   Kristin Foster </pre>
+                    </p>
+                </div>
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+                <div>
+                    <p class="comm" style="position: relative; left: 300px; width: 700px;">
+                        Diam, urna, ornare leo facilisis suspendisse eu rutrum id augue
+                        <br> cursus tincidunt nisl eget ornare pharetra ac pharetra, pulvinar
+                        <br> ipsum sed amet diam morbi amet cursus blandit augue feugiat
+                        <br> arcu aliquet egestas id diam.
+                        <pre class="tom" style="position: absolute; left: 300px;"><img class="tomm" src="photo/33.jpg">   Jessica Sommer </pre>
+                    </p>
+                </div>
+            <!--****************************************************-->
+            <div id="foot1" class="foot" >
+                Make Reservation 
+            </div>
+            <div>
+                <a  class="book2" id="footr" href="#">BOOK A TABLE</a>
+            </div>
+            <div id="foot2" class="foot">
+                Or Call +1234 56 7890
+            </div>
+            <div class="link" id="links" style="display: inline; position: relative; left: 430px; top: 490px;">
+                <a href="#section1">Home</a>
+                <a href="#section2">About</a>
+                <a href="#section3">Menu</a>
+                <a href="#section4">Information</a>
+                <a href="#section5">Contact</a>
+            </div>
+            <img id="end" src="photo/20.jpg" >
+
+               <!--********************** part five **********************--> 
+            <div class="foot" id="sidee">
+                Location
+                <pre style="color: cornsilk;line-height: 30px; font-size: 20px; font-family: 'Acme', sans-serif;">
+        1234 N Spring St,
+Los Angeles,CA 90012
+                </pre>
+            </div>
+            <div class="foot" id="sidee2">
+                Follow Us
+                <div>
+                    <a href="https://m.facebook.com/?locale2=ar_AR"><img src="photo/42.jpg" class="photoo" ></a>
+                    <a href="https://www.instagram.com/"><img src="photo/40.png" class="photoo" ></a>
+                    <a href="https://twitter.com/login?lang=ar"><img src="photo/43.jpg" class="photoo" ></a>
+                </div>
+            </div>
+            <div class="foot" id="sidee3">
+                Hours
+            </div>
+            <div style="position:absolute; left: 0px;">
+                    <pre class="foot" id="sidee4" style="color: cornsilk;line-height: 30px; font-size: 20px; font-family: 'Acme', sans-serif;">
+                        Monday : 11AM - 11 PM
+                        Tuesday : 11AM - 11 PM
+                        Wednesday : 11AM - 11 PM
+                        thursday : 11AM - 11 PM
+                        Friday : 11AM - 11 PM
+                        Saturday : 11AM - 01 AM
+                        Sunday : 11AM - 01 AM
+                    </pre>
+            </div>
+        </div>
+        <!-- ***************** coping *****************-->
+        <div id="coping">
+            <p style="position:absolute;color: cornsilk; left: 430px;width: 700px;text-align: center; ">Copyright &copy; 2021 Restaurant Brand | Powered by Restaurant Brand</p>
+        </div>
+</div>
+
+<script>
+    function calling(){
+        document.getElementById("parag5").innerHTML='Your Meal is : <br> Wood Fire Charred Steak with BBQ Sauce <br>'
+        document.getElementById("parag2").innerHTML="Building a good fire, let alone a good cooking fire, shouldn’t be taken lightly.At my cabin, it usually ends up as a highly controversial activity, because everyone has their own special technique.One person will want to use the log cabin method, while someone else will be saying we need to build it like a teepee,or the kind of weird idea that we should put the kindling on top and let everything burn down, so the fire will last all night.It’s fun watching friends sitting around a sputtering fire after a few drinks telling each other they’re doing it all wrong."
+    }
+    function calling2(){
+        document.getElementById("parag5").innerHTML='Your Meal is : <br> Roasted Lamb with Seasoned Potatoes <br>'
+        document.getElementById("parag2").innerHTML=' One of the easiest meals you can prepare is an Oven Roasted Leg of Lamb with baby potatoes.Can you believe there was a time I didn’t enjoy lamb? It’s true. Until my visit to Ireland few years ago I had no idea that lamb could be that delicious.Tender and flavorful, without the gaminess I had dreaded that is often thought with lamb. The truth is, lamb has come a long away, especially lamb raised in the United States.'
+    }
+    function calling3(){
+        document.getElementById("parag5").innerHTML='Your Meal is : <br> Oven-roasted Beef with tossed vegetables <br>'
+        document.getElementById("parag2").innerHTML='  Preheat oven to 200ºC. Cut potatoes, pumpkin and 2 carrots into chunks. Combine with leek, garlic and rosemary in a baking dish with 2 tablespoons oil.Heat remaining oil in a non-stick frying pan over high heat. Add beef and cook, turning occasionally, until well browned. Transfer to a baking dish and bake for 15 minutes.Add vegetables to oven, and cook with the beef for 30 minutes. Remove beef from oven. Cover with foil and set aside for 15 minutes. Cook vegetables for a further 15 minutes or until tender.'
+    }
+    function calling4(){
+        document.getElementById("parag5").innerHTML='Your Meal is : <br> BBQ Ribs with Vegies and French Fries <br>'
+        document.getElementById("parag2").innerHTML='Rinse spare ribs, pat dry and place in a pot. Cover with boiling water. Peel and halve one onion and add to pot, along with one clove of garlic. Simmer about 30 minutes. Heat oil in another pan. Peel and finely dice remaining onion and fry in oil. Press remaining clove garlic through a garlic press into pan. Add broth and orange juice and simmer until reduced. Transfer cooked onion, garlic and orange juice mixture to a bowl. Stir in ketchup, mustard, soy sauce, Worcestershire sauce, paprika, lemon juice, and ginger. Season with salt, Tabasco and pepper. Remove spareribs from the cooking liquid and place on a hot grill. Brush with barbecue sauce and grill until cooked through, 15-20 minutes.'
+    }
+</script>
+    </body>
+</html>
